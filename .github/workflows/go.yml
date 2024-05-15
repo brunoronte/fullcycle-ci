@@ -18,8 +18,9 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: '1.22'
-    - name: Module
-      run: go mod init github.com/brunoronte/fullcycle-ci
+
+    # - name: Module
+    #   run: go mod init github.com/brunoronte/fullcycle-ci
       
     - name: Test
       run: go test
