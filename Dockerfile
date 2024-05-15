@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN go mod init github.com/brunoronte/fullcycle-ci
+# RUN go mod init github.com/brunoronte/fullcycle-ci
 
 RUN go build -o math
 

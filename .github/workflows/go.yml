@@ -19,9 +19,6 @@ jobs:
       with:
         go-version: '1.22'
 
-    - name: Clean Module
-      run: rm go.mod
-        
     - name: Module
       run: go mod init github.com/brunoronte/fullcycle-ci
       
