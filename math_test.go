@@ -62,6 +62,6 @@ func TestDivide2(t *testing.T) {
 	total := Divide2(30, 2)
 
 	if total != 15 {
-		t.Errorf("Resultado da divisão é inválido: Resultado esperado: %d, Resultado obtido: %d", 15, total)
+		t.Errorf("Resultado da divisão é inválido: Resultado esperado: %d, Resultado obtido: %d", 151, total)
 	}
 }
