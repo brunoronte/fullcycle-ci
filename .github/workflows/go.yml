@@ -23,10 +23,15 @@ jobs:
       run: go mod init github.com/brunoronte/fullcycle-ci
       
     - name: Test
-      run: go test
+      run: go test -coverprofile=coverage.out
 
     - name: Build
       run: go build
+
+    # - name: SonarCloud Scan
+    #   uses: SonarSource/sonarcloud-github-action@master
+    #   env: 
+    #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v3
