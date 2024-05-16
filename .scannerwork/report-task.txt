@@ -1,0 +1,6 @@
+projectKey=go-math
+serverUrl=http://localhost:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://localhost:9000/dashboard?id=go-math
+ceTaskId=7ebf9b64-3968-4701-ac1b-4516f197a24a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7ebf9b64-3968-4701-ac1b-4516f197a24a
